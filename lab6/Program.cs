@@ -27,7 +27,7 @@ namespace lab6
             //1.3
             Console.WriteLine("Task 1.3:");
             var barsikMeows = new MeowTracker(barsik);
-            HandlerMeow.MakeThemMeow(new List<IMeowing> { barsikMeows });
+            barsikMeows.Meow(4);
             Console.WriteLine($"Барсик meowed {barsikMeows.GetMeowCount()} times.\n");
 
 
