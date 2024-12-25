@@ -47,6 +47,8 @@
     <Compile Include="Cat.cs" />
     <Compile Include="Fraction.cs" />
     <Compile Include="HandlerMeow.cs" />
+    <Compile Include="IFraction.cs" />
+    <Compile Include="IMeowing.cs" />
     <Compile Include="MeowTracker.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

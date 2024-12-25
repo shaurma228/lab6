@@ -56,15 +56,4 @@ namespace lab6
             Console.WriteLine($"{f5} = {f5.DoubleVal()}\n");
         }
     }
-
-    public interface IMeowing
-    {
-        void Meow();
-        void Meow(int n);
-    }
-
-    public interface IFraction
-    {
-        double DoubleVal();
-    }
 }
